@@ -9,7 +9,7 @@ class QuickFoundationThemePackage extends Package {
 	protected $pkgVersion = '0.1';
 	
 	public function getPackageDescription() {
-		return t("a concrete5 theme for quick start with foundation framework");
+		return t("A concrete5 theme for quick start with zurb foundation framework.");
 	}
 	
 	public function getPackageName() {
