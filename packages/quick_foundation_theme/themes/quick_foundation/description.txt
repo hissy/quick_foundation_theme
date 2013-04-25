@@ -1,2 +1,2 @@
-Foundation4
-Foundation | Sidebar Template
+Quick Foundation Theme
+A concrete5 theme for quick start with zurb foundation framework.
