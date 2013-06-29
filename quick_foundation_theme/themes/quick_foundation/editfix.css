@@ -1,0 +1,14 @@
+/* override some styles for concrete5 editing interface */
+
+body{
+	position: inherit;
+}
+#Page {
+	position: relative;
+}
+
+.ccm-ui *, .ccm-ui *:before, .ccm-ui *:after {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}

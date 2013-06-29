@@ -16,6 +16,12 @@ class QuickFoundationThemePackage extends Package {
 		return t("Quick Foundation Theme");
 	}
 	
+	public function on_start() {
+		$pkg = Loader::package($this->pkgHandle);
+		$env = Environment::get();
+		$env->overrideCoreByPackage('models/layout.php', $pkg);
+	}
+	
 	public function install() {
 		$pkg = parent::install();
 		PageTheme::add('quick_foundation', $pkg);
